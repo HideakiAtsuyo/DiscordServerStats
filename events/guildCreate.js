@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const bot = new Discord.Client();
 const sql = require("sqlite");
 const config = require("../assets/config.json");
 sql.open(`./assets/${config.dbsqlite}`);
