@@ -1,5 +1,5 @@
 {
 	"token": "Token here",
 	"prefix": "s>",
-  "dbsqlite": "statbot.sqlite",
+	"dbsqlite": "statbot.sqlite",
 }
