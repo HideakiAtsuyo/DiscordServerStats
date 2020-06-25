@@ -1,6 +1,7 @@
-const Discord = require("discord.js");
-const sql = require("sqlite");
-const config = require("../assets/config.json");
+const Discord = require("discord.js"),
+      sql = require("sqlite");
+let config = require("../assets/config.json");
+
 sql.open(`./assets/${config.dbsqlite}`);
 module.exports = (client, guild) => {
     sql.get(`SELECT * FROM guildes WHERE guildId ="${guild.id}"`).then(row => {
