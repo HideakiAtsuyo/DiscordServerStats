@@ -1,5 +1,6 @@
 {
-	"token": "Token here",
+	"token": "Token",
 	"prefix": "s>",
 	"dbsqlite": "statbot.sqlite",
+	"owners": ["ID1","ID2"]
 }
